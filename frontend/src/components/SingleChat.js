@@ -19,7 +19,7 @@ import "./typing.css";
 import ScrollableChat from "./ScrollableChat";
 import io from "socket.io-client";
 
-const ENDPOINT = "http://localhost:5000";
+const ENDPOINT = "https://talk-a-tive-brl9.onrender.com";
 var socket, selectedChatCompare;
 
 const SingleChat = ({ fetchAgain, setFetchAgain }) => {
